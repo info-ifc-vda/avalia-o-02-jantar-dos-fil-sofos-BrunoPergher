@@ -8,8 +8,8 @@ NUM_FILOSOFOS = 5
 # Criar uma lista de garfos (como locks)
 garfos = [threading.Lock() for _ in range(NUM_FILOSOFOS)]
 
-# Semáforo para permitir que no máximo NUM_FILOSOFOS tentem comer ao mesmo tempo
-sem_filosofos = threading.Semaphore(NUM_FILOSOFOS)
+# Semáforo para permitir que no máximo NUM_FILOSOFOS -1 tentem comer ao mesmo tempo
+sem_filosofos = threading.Semaphore(NUM_FILOSOFOS - 1)
 
 # Variáveis para controlar a fila de prioridade
 fila_prioridade = []
