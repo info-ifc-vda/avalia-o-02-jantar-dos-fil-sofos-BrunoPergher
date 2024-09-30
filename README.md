@@ -17,5 +17,9 @@
 - **Garantimos que apenas uma thread** possa acessar um recurso crítico de cada vez.
 
 
+------
+## Exemplo do código em funcionamento.
 
-Exemplo do código em funcionamento.
+![image](https://github.com/user-attachments/assets/a26046b5-4fae-4c78-b717-016e93b55ed9)
+
+![image](https://github.com/user-attachments/assets/c72a0934-8977-4a3c-80c5-31159dc459f2)
